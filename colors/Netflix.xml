@@ -1,66 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
-    <!-- Colores principales inspirados en Netflix -->
+    <!-- Colores principales - Negro AMOLED puro -->
     
-    <!-- Negro AMOLED (fondos) -->
-    <color name="netflix_black_100">ff000000</color>
-    <color name="netflix_black_90">e6000000</color>
-    <color name="netflix_black_70">b3000000</color>
-    <color name="netflix_black_50">80000000</color>
-    <color name="netflix_black_30">4d000000</color>
-    <color name="netflix_black_15">26000000</color>
+    <!-- Negros absolutos (fondos) -->
+    <color name="amoled_black_100">ff000000</color>
+    <color name="amoled_black_95">f2000000</color>
+    <color name="amoled_black_90">e6000000</color>
+    <color name="amoled_black_80">cc000000</color>
+    <color name="amoled_black_70">b3000000</color>
+    <color name="amoled_black_60">99000000</color>
+    <color name="amoled_black_50">80000000</color>
+    <color name="amoled_black_40">66000000</color>
+    <color name="amoled_black_30">4d000000</color>
+    <color name="amoled_black_20">33000000</color>
+    <color name="amoled_black_10">1a000000</color>
+    <color name="amoled_black_5">0d000000</color>
 
-    <!-- Rojo Netflix/Bordó (acentos) -->
-    <color name="netflix_red_100">ffE50914</color>
-    <color name="netflix_red_90">e6E50914</color>
-    <color name="netflix_red_70">b3E50914</color>
-    <color name="netflix_red_50">80E50914</color>
-    <color name="netflix_red_30">4dE50914</color>
-
-    <!-- Textos y elementos foreground -->
-    <color name="netflix_white_100">ffffffff</color>
-    <color name="netflix_white_90">e6ffffff</color>
-    <color name="netflix_white_70">b3ffffff</color>
-    <color name="netflix_white_50">80ffffff</color>
-    <color name="netflix_white_30">4dffffff</color>
-
-    <!-- Grises para elementos secundarios -->
-    <color name="netflix_gray_100">ff232323</color>
-    <color name="netflix_gray_70">b3232323</color>
-    <color name="netflix_gray_50">80232323</color>
+    <!-- Blancos puros (textos y elementos frontales) -->
+    <color name="pure_white_100">ffffffff</color>
+    <color name="pure_white_90">e6ffffff</color>
+    <color name="pure_white_80">ccffffff</color>
+    <color name="pure_white_70">b3ffffff</color>
+    <color name="pure_white_60">99ffffff</color>
+    <color name="pure_white_50">80ffffff</color>
+    <color name="pure_white_40">66ffffff</color>
+    <color name="pure_white_30">4dffffff</color>
+    <color name="pure_white_20">33ffffff</color>
+    <color name="pure_white_10">1affffff</color>
+    <color name="pure_white_5">0dffffff</color>
 
     <!-- Colores específicos para componentes -->
     <color name="main_fg_100">ffffffff</color>
     <color name="main_fg_90">e6ffffff</color>
     <color name="main_fg_70">b3ffffff</color>
+    <color name="main_fg_50">80ffffff</color>
     <color name="main_fg_30">4dffffff</color>
-    <color name="main_fg_12">1fffffff</color>
+    <color name="main_fg_10">1affffff</color>
 
     <color name="main_bg_100">ff000000</color>
     <color name="main_bg_90">e6000000</color>
     <color name="main_bg_70">b3000000</color>
+    <color name="main_bg_50">80000000</color>
     <color name="main_bg_30">4d000000</color>
-    <color name="main_bg_12">1f000000</color>
+    <color name="main_bg_10">1a000000</color>
 
     <!-- Backgrounds -->
     <color name="HomePanel">e6000000</color>
     <color name="Background">ff000000</color>
-    <color name="PosterBack">ff232323</color>
-    <color name="AltPosterBack">1fffffff</color>
+    <color name="PosterBack">ff0d0d0d</color>
+    <color name="AltPosterBack">1affffff</color>
 
-    <!-- Elementos interactivos y selecciones -->
-    <color name="selected">ffE50914</color>
-    <color name="focus">b3E50914</color>
-    <color name="button">ffE50914</color>
-    <color name="button_focus">ffffffff</color>
-    <color name="button_bg">80232323</color>
+    <!-- Elementos interactivos y selecciones (mínimo contraste) -->
+    <color name="selected">ff1a1a1a</color>
+    <color name="focus">4dffffff</color>
+    <color name="button">ff1a1a1a</color>
+    <color name="button_focus">ff333333</color>
+    <color name="button_bg">ff0d0d0d</color>
 
     <!-- Barras de progreso -->
-    <color name="progress_bg">4d232323</color>
-    <color name="progress_fg">ffE50914</color>
+    <color name="progress_bg">4d0d0d0d</color>
+    <color name="progress_fg">ff333333</color>
 
-    <!-- Estados -->
-    <color name="warning">ffE50914</color>
-    <color name="success">ff5DBB63</color>
-    <color name="info">ff3E80F7</color>
+    <!-- Estados (mínimo color para mantener AMOLED puro) -->
+    <color name="warning">ff333333</color>
+    <color name="success">ff2d2d2d</color>
+    <color name="info">ff262626</color>
+
+    <!-- Separadores y bordes -->
+    <color name="border">ff0d0d0d</color>
+    <color name="separator">ff1a1a1a</color>
 </colors>
